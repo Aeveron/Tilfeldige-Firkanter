@@ -21,6 +21,9 @@ namespace Tilfeldige_Firkanter
         }
 
         public void AddBoxTopRow(int boxX, int boxWidth)
+        {
+
+        }
         public void AddBoxBottomRow(int boxX, int boxWidth)
         public void AddBoxMiddleRow(int boxX, int boxWidth)
 
