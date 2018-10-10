@@ -22,10 +22,24 @@ namespace Tilfeldige_Firkanter
 
         public void AddBoxTopRow(int boxX, int boxWidth)
         {
+            _cells[boxX].AddLowerLeftCorner();
+
+            for (int i = 1; i < boxWidth -1; i++)
+            {
+                _cells[boxX + i].AddHorizontal();
+            }
+            _cells[boxX + boxWidth - 1].AddUpperRightCorner();
+        }
+
+        public void AddBoxBottomRow(int boxX, int boxWidth)
+        {
 
         }
-        public void AddBoxBottomRow(int boxX, int boxWidth)
+
         public void AddBoxMiddleRow(int boxX, int boxWidth)
+        {
+
+        }
 
 
 

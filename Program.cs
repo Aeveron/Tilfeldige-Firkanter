@@ -10,8 +10,7 @@ namespace Tilfeldige_Firkanter
             var cell = new VirtualScreenCell();
             cell.AddLowerLeftCorner();
             cell.AddVertical();
-            cell.GetCharacter();
-            cell.GetCharacter();
+            cell.GetCharacter();           
             Console.WriteLine(cell.GetCharacter());
         }
     }
